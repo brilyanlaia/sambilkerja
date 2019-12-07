@@ -11,8 +11,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8">
-                        <h1>Find the job that you deserve</h1>
-                        <p class="mt-4 mb-4 job-search-sub-text">More than 3000+ trusted live jobs available from 500+ different employer, <br /> and agents on this website to take your career next level</p>
+                        <h1>Kuliah kenapa gak sambilkerja aja</h1>
+                        <p class="mt-4 mb-4 job-search-sub-text">mulai pilih pekerjaanmu dari sekarang</p>
                     </div>
                 </div>
 
@@ -22,8 +22,8 @@
                         <form action="{{route('jobs_listing')}}" class="form-inline" method="get">
                             <div class="form-row">
                                 <div class="col-auto">
-                                    <input type="text" name="q" class="form-control mb-2" style="min-width: 300px;" placeholder="@lang('app.job_title_placeholder')">
-                                    <input type="text" name="location" class="form-control" style="min-width: 300px;"  placeholder="@lang('app.job_location_placeholder')">
+                                    <input type="text" name="q" class="form-control mb-2" style="min-width: 300px;" placeholder="judul pekerjaan, atau nama perusahaan">
+                                    <input type="text" name="location" class="form-control" style="min-width: 300px;"  placeholder="kota pilihanmu (opsional)">
                                     <button type="submit" class="btn btn-success mb-2"><i class="la la-search"></i> @lang('app.search') @lang('app.job')</button>
                                 </div>
                             </div>
@@ -38,7 +38,7 @@
 
     </div>
 
-
+<!-- 
     @if($categories->count())
         <div class="home-categories-wrap bg-white pb-5 pt-5">
             <div class="container">
@@ -66,7 +66,7 @@
             </div>
         </div>
     @endif
-
+ -->
 
 
     @if($premium_jobs->count())
@@ -280,7 +280,7 @@
 
 
 
-    <div class="home-blog-section pb-5 pt-5">
+   <!--  <div class="home-blog-section pb-5 pt-5">
         <div class="container">
 
             <div class="row">
@@ -341,7 +341,7 @@
 
         </div>
     </div>
-
+ -->
 
 
     <div class="new-registration-page bg-white pb-5 pt-5">
@@ -373,7 +373,7 @@
         </div>
     </div>
 
-    <div class="job-stats-footer pb-5 pt-5 text-center">
+  <!--   <div class="job-stats-footer pb-5 pt-5 text-center">
         <div class="container">
 
             <div class="row">
@@ -405,7 +405,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 @endsection

@@ -155,13 +155,13 @@
                     <label for="job_type" class="col-sm-4 control-label">@lang('app.job_type')</label>
                     <div class="col-sm-8">
                         <select class="form-control {{e_form_invalid_class('job_type', $errors)}}" name="job_type" id="job_type">
-                            <option value="full_time" {{ old('job_type') == 'full_time' ? 'selected':'' }}>@lang('app.full_time')</option>
-                            <option value="internship" {{ old('job_type') == 'internship' ? 'selected':'' }}>@lang('app.internship')</option>
+                            <!-- <option value="full_time" {{ old('job_type') == 'full_time' ? 'selected':'' }}>@lang('app.full_time')</option>
+                            <option value="internship" {{ old('job_type') == 'internship' ? 'selected':'' }}>@lang('app.internship')</option> -->
                             <option value="part_time" {{ old('job_type') == 'part_time' ? 'selected':'' }}>@lang('app.part_time')</option>
-                            <option value="contract" {{ old('job_type') == 'contract' ? 'selected':'' }}>@lang('app.contract')</option>
+                           <!--  <option value="contract" {{ old('job_type') == 'contract' ? 'selected':'' }}>@lang('app.contract')</option>
                             <option value="temporary" {{ old('job_type') == 'temporary' ? 'selected':'' }}>@lang('app.temporary')</option>
                             <option value="commission" {{ old('job_type') == 'commission' ? 'selected':'' }}>@lang('app.commission')</option>
-                            <option value="internship" {{ old('job_type') == 'internship' ? 'selected':'' }}>@lang('app.internship')</option>
+                            <option value="internship" {{ old('job_type') == 'internship' ? 'selected':'' }}>@lang('app.internship')</option> -->
                         </select>
 
                         {!! e_form_error('job_type', $errors) !!}

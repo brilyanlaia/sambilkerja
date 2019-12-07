@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{!! !empty($title) ? $title : 'JobFair' !!}</title>
+    <title>{!! !empty($title) ? $title : 'SambilKerja' !!}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" {{ ! request()->is('payment*')? 'defer' : ''}}></script>
